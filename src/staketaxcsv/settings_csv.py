@@ -27,7 +27,7 @@ TERRA_LCD_NODE = os.environ.get("STAKETAX_TERRA_LCD_NODE", "")
 TORI_NODE = os.environ.get("STAKETAX_TORI_NODE", "")
 LUNA2_LCD_NODE = os.environ.get("STAKETAX_LUNA2_LCD_NODE", "https://phoenix-lcd.terra.dev")
 XPRT_NODE = os.environ.get("STAKETAX_XPRT_NODE", "https://rest.persistence.audit.one")
-STRD_NODE = os.environ.get("STAKETAX_XPRT_NODE", "https://api-stride.pupmos.network")
+STRD_NODE = os.environ.get("STAKETAX_XPRT_NODE", "https://api.stride.silentvalidator.com")
 
 
 # Optional environment variables
