@@ -26,6 +26,9 @@ STARS_NODE = os.environ.get("STAKETAX_STARS_NODE", "")
 TERRA_LCD_NODE = os.environ.get("STAKETAX_TERRA_LCD_NODE", "")
 TORI_NODE = os.environ.get("STAKETAX_TORI_NODE", "")
 LUNA2_LCD_NODE = os.environ.get("STAKETAX_LUNA2_LCD_NODE", "https://phoenix-lcd.terra.dev")
+XPRT_NODE = os.environ.get("STAKETAX_XPRT_NODE", "https://rest.persistence.audit.one")
+STRD_NODE = os.environ.get("STAKETAX_XPRT_NODE", "https://api-stride.pupmos.network")
+
 
 # Optional environment variables
 COVALENT_API_KEY = os.environ.get("STAKETAX_COVALENT_API_KEY", "")
@@ -53,6 +56,8 @@ TICKER_SCRT = "SCRT"
 TICKER_SOL = "SOL"
 TICKER_STARS = "STARS"
 TICKER_TORI = "TORI"
+TICKER_XPRT = "XPRT"
+TICKER_STRD = "STRD"
 
 DONATION_WALLETS = set([v for k, v in os.environ.items() if k.startswith("DONATION_WALLET_")])
 
